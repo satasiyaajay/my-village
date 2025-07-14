@@ -1,0 +1,56 @@
+body {
+  font-family: 'Georgia', serif;
+  background-color: #fdfcf7;
+  margin: 0;
+  padding: 0;
+  color: #333;
+}
+
+header {
+  background-color: #87a96b;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}
+
+nav a {
+  color: white;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+#hero {
+  background: url('https://via.placeholder.com/1200x400?text=Village+Scenery') center/cover no-repeat;
+  color: white;
+  padding: 100px 20px;
+  text-align: center;
+}
+
+section {
+  padding: 40px 20px;
+  max-width: 900px;
+  margin: auto;
+}
+
+.gallery-grid {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.gallery-grid img {
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  width: 300px;
+  height: 200px;
+  object-fit: cover;
+}
+
+footer {
+  background-color: #4d774e;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
